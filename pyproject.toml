@@ -1,0 +1,16 @@
+[project]
+name = "godot-lsp-mcp"
+version = "0.1.0"
+description = "MCP server for Godot GDScript diagnostics via LSP"
+authors = [
+    {name = "madewithscience", email = "147768869+madewithscience@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
+
