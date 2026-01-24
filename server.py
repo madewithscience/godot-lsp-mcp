@@ -96,7 +96,7 @@ def convert_script_to_uri(script: str) -> Path:
 
 
 def show_config() -> str:
-    src_dir = Path(__file__).parent.parent
+    src_dir = Path(__file__).parent
     return json.dumps({
         "mcpServers": {
             "godot-lsp-mcp": {
